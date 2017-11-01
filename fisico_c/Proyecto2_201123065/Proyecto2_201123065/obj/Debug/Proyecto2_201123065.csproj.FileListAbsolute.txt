@@ -1,0 +1,10 @@
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\bin\Debug\Proyecto2_201123065.exe.config
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\bin\Debug\Proyecto2_201123065.exe
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\bin\Debug\Proyecto2_201123065.pdb
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\obj\Debug\Proyecto2_201123065.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\obj\Debug\Proyecto2_201123065.Form1.resources
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\obj\Debug\Proyecto2_201123065.Form2.resources
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\obj\Debug\Proyecto2_201123065.Properties.Resources.resources
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\obj\Debug\Proyecto2_201123065.csproj.GenerateResource.Cache
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\obj\Debug\Proyecto2_201123065.exe
+\\Mac\Home\Desktop\Proyecto2\fisico_c\Proyecto2_201123065\Proyecto2_201123065\obj\Debug\Proyecto2_201123065.pdb

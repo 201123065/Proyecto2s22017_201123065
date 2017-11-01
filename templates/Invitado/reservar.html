@@ -1,0 +1,101 @@
+{%extends 'base/base.html'%}
+{%block titulo%}reservar{%endblock%}
+{%block accion%}Reservar(monto:{{monto.monto}}){%endblock%}
+{%block content%}
+
+<div class="col-lg-3">
+	Entrada
+	<input type="date" name="entra" id="in" class="form-control" onchange="start()">
+	
+</div>
+<div class="col-lg-3">
+	Salida<input type="date" name="sale" id="out" class="form-control" onchange="end()" hidden>
+</div>
+<div class="col-lg-3">
+	nivel</br>
+	<select id="level" hidden onchange="room()"> 
+		<option>seleccionar</option>
+		<option value="hola" class="form-control">1</option>
+		<option value="adios" class="form-control">2</option>
+	</select>
+</div>
+<div class="col-lg-3">
+	habitaci&oacute;n</br>
+	<select id="room" hidden> 
+		<option>seleccionar</option>
+		<option value="adio" class="form-control">1</option>
+		<option value="hola" class="form-control">2</option>
+	</select>
+</div>
+<div class="col-lg-12">
+</br>.
+</br>.
+</div>
+<div class ="col-lg-12">
+	<h4 class="text-center">Extra</h4> 
+</div>
+<div class ="col-lg-6 ">
+	<select onchange="agregado()"> 
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+	
+</div>
+
+<div class ="col-lg-6 ">
+	;)
+	
+</div>
+<div class="col-lg-8 mx-auto text-center">
+	<a href="#" class="btn btn-lg btn-outline">
+	  <i class="fa fa-download"></i>
+	  Reservar
+	</a>
+</div>
+{%endblock%}
+{%block js%}
+
+<script type="text/javascript">
+function start(){
+    var total =document.getElementById("in").value;
+    document.getElementById("out").hidden=false;
+}
+function end(){	
+    var total =document.getElementById("out");
+    if (total.value==""){	
+   		document.getElementById("level").hidden=true;
+   		document.getElementById("room").hidden=true;
+    }else{
+    	document.getElementById("level").hidden=false;
+    }
+}
+function room(){
+    var total =document.getElementById("level").value;
+    document.getElementById("room").hidden=false;
+}
+
+function agregado(){
+	$.ajax({
+		data:{
+			"nombre":nombre,
+		},
+		url:"/cargar_extra",
+		type:"get",
+		success:function(data){
+			alert("se cargo la mera v3g4");
+		}
+			
+		});
+}
+
+
+
+
+</script>
+
+
+
+
+
+{%endblock%}
